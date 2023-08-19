@@ -3,10 +3,10 @@ import React from "react";
 function TotalSpendings() {
   return (
     <div className="total-spendings">
-      <span datatype="month">
+      <p datatype="month">
         Total this month
-        <p>$478.33</p>
-      </span>
+        <span>$478.33</span>
+      </p>
       <span datatype="last-month">
         <p>+2.45</p> from last month
       </span>
