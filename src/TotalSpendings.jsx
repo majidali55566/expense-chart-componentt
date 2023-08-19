@@ -7,9 +7,9 @@ function TotalSpendings() {
         Total this month
         <span>$478.33</span>
       </p>
-      <span datatype="last-month">
-        <p>+2.45</p> from last month
-      </span>
+      <p datatype="last-month">
+        <span>+2.45</span> from last month
+      </p>
     </div>
   );
 }
