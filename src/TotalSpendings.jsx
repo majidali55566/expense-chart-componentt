@@ -3,13 +3,14 @@ import React from "react";
 function TotalSpendings() {
   return (
     <div className="total-spendings">
-      <p datatype="month">
-        Total this month
-        <span>$478.33</span>
-      </p>
-      <p datatype="last-month">
-        <span>+2.45</span> from last month
-      </p>
+      <div className="this">
+        <p>Total this month</p>
+        <p datatype="month">$478.33</p>
+      </div>
+      <div className="last">
+        <p>+2.45</p> 
+    <p datatype="last-month">from last month</p>
+      </div>
     </div>
   );
 }
