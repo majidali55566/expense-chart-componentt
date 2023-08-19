@@ -8,8 +8,8 @@ function TotalSpendings() {
         <p datatype="month">$478.33</p>
       </div>
       <div className="last">
-        <p>+2.45</p> 
-    <p datatype="last-month">from last month</p>
+        <p datatype="last-month">+2.45</p> 
+    <p>from last month</p>
       </div>
     </div>
   );
