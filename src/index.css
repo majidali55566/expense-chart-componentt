@@ -212,13 +212,13 @@ body{
   align-items: center;
  }
 
- .total-spendings [datatype="month"] p span{
+ .total-spendings .this p[datatype="month"]{
   font-size: var(--fs-700);
   color: var(--clr-neutral-700);
   font-weight:var(--fw-bold);
  }
 
- .total-spendings [datatype="last-month"] p span {
+ .total-spendings .last p[datatype="last-month"] {
   color :var(--clr-neutral-700);
   font-weight: var(--fw-bold);
   text-align: end;
